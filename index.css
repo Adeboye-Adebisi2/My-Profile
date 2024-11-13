@@ -1,35 +1,32 @@
 body {
-    background-color: #fbcbc9;    
-    position: relative;
-    left: 35%;
-    padding-top: 50px;
+    background-color: #fbcbc9; 
+    display: flex;   
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 .master {
-    width: 350px;
-    /* height: 68vh; */
-    height: 31rem;
+    width: 300px;
+    padding: 20px;
     background-color: #322514;
     border-radius: 15px;
+    text-align: center;
 }
 
-.container {
-    padding-top: 30px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container img {
+.master .display-picture img {
     border-radius: 50%;
     height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    align-items: center;  
 }
 
 h2 {
     font-size: 20px;
     color: #fff;
+    margin-bottom: 5px;
 }
 
 .desc {
@@ -42,63 +39,27 @@ p {
 .address {
     color:#e75874;
     font-size: 15px;
+    margin-bottom: 5px;
 }
 
-.btn {
-    border-radius: 5px;
-    background-color:#be1158;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    border: #be1158;
+.reach-me {
+    margin-bottom: 20px;
 }
 
-.btn1 {
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #be1158;
+    border: none;
     border-radius: 5px;
-    background-color:#be1158;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    border: #be1158;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.btn2 {
-    border-radius: 5px;
-    background-color:#be1158;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    border: #be1158;
-
-}
-
-.btn3 {
-    border-radius: 5px;
-    background-color:#be1158;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    border: #be1158;
-    
-}
-
-.btn4 {
-    border-radius: 5px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:#be1158;
-    margin-bottom: 5px;
-    border: #be1158;
+button a:hover {
+    color: #322514;
 }
 
 a {
@@ -108,5 +69,7 @@ a {
     font-family: sans-serif;
     justify-content: center;   
 }
+
+
 
 
